@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-app",
+  "name": "redux-toolkit-counter-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prashandip.github.io/react-redux-counter-app",
+  "homepage": "https://prashandip.github.io/redux-toolkit-counter-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
