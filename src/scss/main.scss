@@ -21,30 +21,29 @@ section.counter-app {
   min-width: 80vw;
   position: fixed;
   top: 30%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-section.counter-app h1 {
-  text-transform: uppercase;
-}
-section.counter-app h2 {
-  color: gold;
-}
-section.counter-app div.buttons {
-  margin-top: 16px;
-}
-section.counter-app div.buttons button {
-  background-color: transparent;
-  border: 2px solid #fff;
-  border-radius: 25px;
-  color: #fff;
-  cursor: pointer;
-  margin: 0 2px;
-  padding: 4px 8px;
-  text-transform: uppercase;
-  transition: 0.3s ease-in;
-}
-section.counter-app div.buttons button:hover {
-  border-color: gold;
-  color: gold;
+  h1 {
+    text-transform: uppercase;
+  }
+  h2 {
+    color: gold;
+  }
+  div.buttons {
+    margin-top: 16px;
+    button {
+      background-color: transparent;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      color: #fff;
+      cursor: pointer;
+      margin: 0 2px;
+      padding: 4px 8px;
+      text-transform: uppercase;
+      transition: 0.3s ease-in;
+      &:hover {
+        border-color: gold;
+        color: gold;
+      }
+    }
+  }
 }
